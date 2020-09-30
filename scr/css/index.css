@@ -88,7 +88,13 @@ body{
     font-size: 40px;
   
 }
-
+/* SPACE LEFT AND RIGHT OF THE TEXT FROM BORDERS OF THE CARD */
+.content p{
+    padding-left: 10px;
+    padding-right: 10px;
+  
+}
+/* THE BACKGROUND CARD HOLDING THE TEXT */
 .card{
    
     background-color: white;
@@ -97,5 +103,6 @@ body{
     padding-top: 90px;
     padding-bottom: 90px;
     
-    align-items: center;
+    
+    
 }
